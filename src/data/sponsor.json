@@ -2,6 +2,7 @@
   "name": "pauloconde.dev",
   "website": "https://pauloconde.dev",
   "logoPath": "/paulocondedev.png",
+  "drawerLogoPath": "/paulocondedev.png",
   "instagram": "https://www.instagram.com/empaque.art",
   "whatsapp": "http://wa.me/+584147494763",
   "colors": {
@@ -12,7 +13,8 @@
     "navBg": "#ffffff",
     "navText": "#080210",
     "navIcon": "#080210",
-    "navIconActive": "#5314ff"
+    "navIconActive": "#5314ff",
+    "drawerBg": "#fff"
   },
   "seo": {
     "defaultTitle": "Mundial 2026 | pauloconde.dev",

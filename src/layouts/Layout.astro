@@ -66,6 +66,7 @@ const kickoffISOs = data.matches.map(m => getMatchUTC(m));
         --brand-nav-text: ${sponsorInfo.colors.navText};
         --brand-nav-icon: ${sponsorInfo.colors.navIcon};
         --brand-nav-icon-active: ${sponsorInfo.colors.navIconActive};
+        --brand-drawer-bg: ${sponsorInfo.colors.drawerBg || sponsorInfo.colors.navBg};
       }
     `} />
 
@@ -143,11 +144,7 @@ const kickoffISOs = data.matches.map(m => getMatchUTC(m));
     <!-- ── Drawer panel ── -->
     <aside id="drawer-panel"
            class="fixed top-0 right-0 bottom-0 z-[8001] w-80 max-w-[90vw] flex flex-col"
-           style="background: var(--brand-nav-bg, #0a0e1a);
-                  border-left: 1px solid var(--border-subtle);
-                  transform: translateX(100%);
-                  transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
-                  padding-top: env(safe-area-inset-top, 0px);">
+           style={`background: ${sponsorInfo.colors.drawerBg || sponsorInfo.colors.navBg || '#0a0e1a'}; border-left: 1px solid var(--border-subtle); transform: translateX(100%); transition: transform 0.35s cubic-bezier(0.4,0,0.2,1); padding-top: env(safe-area-inset-top, 0px);`}>
 
       <!-- Header del drawer -->
       <div class="flex items-center justify-between px-5 h-14 border-b"
@@ -166,7 +163,7 @@ const kickoffISOs = data.matches.map(m => getMatchUTC(m));
         
         <!-- Logo Sponsor Grande -->
         <div class="flex flex-col items-center gap-5 mt-4">
-          <img src={sponsorInfo.logoPath} alt={sponsorInfo.name} class="w-56 max-w-full h-auto object-contain" />
+          <img src={sponsorInfo.drawerLogoPath || sponsorInfo.logoPath} alt={sponsorInfo.name} class="w-56 max-w-full h-auto object-contain" />
           
           <!-- Redes Sociales -->
           <div class="flex items-center gap-6 mt-2">
