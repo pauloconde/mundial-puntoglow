@@ -1,0 +1,49 @@
+﻿id;team_name;fifa_code;group_letter
+1;Mexico;MEX;A
+2;South Africa;RSA;A
+3;South Korea;KOR;A
+4;Czech Republic;CZE;A
+5;Canada;CAN;B
+6;Bosnia and Herzegovina;BIH;B
+7;Qatar;QAT;B
+8;Switzerland;SUI;B
+9;Brazil;BRA;C
+10;Morocco;MAR;C
+11;Haiti;HAI;C
+12;Scotland;SCO;C
+13;USA;USA;D
+14;Paraguay;PAR;D
+15;Australia;AUS;D
+16;Turkey;TUR;D
+17;Germany;GER;E
+18;Curaçao;CUR;E
+19;Ivory Coast;CIV;E
+20;Ecuador;ECU;E
+21;Netherlands;NED;F
+22;Japan;JPN;F
+23;Sweden;SWE;F
+24;Tunisia;TUN;F
+25;Belgium;BEL;G
+26;Egypt;EGY;G
+27;Iran;IRN;G
+28;New Zealand;NZL;G
+29;Spain;ESP;H
+30;Cabo Verde;CPV;H
+31;Saudi Arabia;KSA;H
+32;Uruguay;URU;H
+33;France;FRA;I
+34;Senegal;SEN;I
+35;Iraq;IRQ;I
+36;Norway;NOR;I
+37;Argentina;ARG;J
+38;Algeria;ALG;J
+39;Austria;AUT;J
+40;Jordan;JOR;J
+41;Portugal;POR;K
+42;Congo DR;COD;K
+43;Uzbekistan;UZB;K
+44;Colombia;COL;K
+45;England;ENG;L
+46;Croatia;CRO;L
+47;Ghana;GHA;L
+48;Panama;PAN;L

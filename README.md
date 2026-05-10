@@ -1,5 +1,9 @@
 # 🏆 Template: Mundial 2026 PWA (White-label)
 
+> [!TIP]
+> Para una explicación detallada de toda la información relacionada a este proyecto, consulta el archivo [DOCUMENTACION.md](file:///Users/pauloconde/Development/mundial-template/DOCUMENTACION.md).
+
+
 Este repositorio funciona como un **Template (plantilla maestra)** para generar de manera automática y consistente aplicaciones móviles PWA del Mundial de la FIFA 2026 para diferentes sponsors o marcas.
 
 La arquitectura de la aplicación es completamente *White-label*. Esto significa que la identidad visual, los metadatos SEO y la configuración de la PWA (colores, nombres, iconos) se controlan de manera centralizada sin necesidad de tocar el código fuente principal de los componentes.

@@ -1,0 +1,1013 @@
+{
+  "name": "FIFA World Cup 2026",
+  "matches": [
+    {
+      "num": 1,
+      "round": "Fase de Grupos",
+      "date": "2026-06-11",
+      "time": "15:00",
+      "team1": "MEX",
+      "team2": "RSA",
+      "group": "Grupo A",
+      "ground": "Ciudad de México"
+    },
+    {
+      "num": 2,
+      "round": "Fase de Grupos",
+      "date": "2026-06-11",
+      "time": "22:00",
+      "team1": "KOR",
+      "team2": "CZE",
+      "group": "Grupo A",
+      "ground": "Guadalajara"
+    },
+    {
+      "num": 3,
+      "round": "Fase de Grupos",
+      "date": "2026-06-12",
+      "time": "15:00",
+      "team1": "CAN",
+      "team2": "BIH",
+      "group": "Grupo B",
+      "ground": "Toronto"
+    },
+    {
+      "num": 4,
+      "round": "Fase de Grupos",
+      "date": "2026-06-12",
+      "time": "21:00",
+      "team1": "USA",
+      "team2": "PAR",
+      "group": "Grupo D",
+      "ground": "Los Angeles"
+    },
+    {
+      "num": 5,
+      "round": "Fase de Grupos",
+      "date": "2026-06-13",
+      "time": "15:00",
+      "team1": "QAT",
+      "team2": "SUI",
+      "group": "Grupo B",
+      "ground": "Área de la Bahía de San Francisco"
+    },
+    {
+      "num": 6,
+      "round": "Fase de Grupos",
+      "date": "2026-06-13",
+      "time": "18:00",
+      "team1": "BRA",
+      "team2": "MAR",
+      "group": "Grupo C",
+      "ground": "Nueva York/Nueva Jersey"
+    },
+    {
+      "num": 7,
+      "round": "Fase de Grupos",
+      "date": "2026-06-13",
+      "time": "21:00",
+      "team1": "HAI",
+      "team2": "SCO",
+      "group": "Grupo C",
+      "ground": "Boston"
+    },
+    {
+      "num": 8,
+      "round": "Fase de Grupos",
+      "date": "2026-06-14",
+      "time": "0:00",
+      "team1": "AUS",
+      "team2": "TUR",
+      "group": "Grupo D",
+      "ground": "Vancouver"
+    },
+    {
+      "num": 9,
+      "round": "Fase de Grupos",
+      "date": "2026-06-14",
+      "time": "13:00",
+      "team1": "GER",
+      "team2": "CUR",
+      "group": "Grupo E",
+      "ground": "Houston"
+    },
+    {
+      "num": 10,
+      "round": "Fase de Grupos",
+      "date": "2026-06-14",
+      "time": "16:00",
+      "team1": "NED",
+      "team2": "JPN",
+      "group": "Grupo F",
+      "ground": "Dallas"
+    },
+    {
+      "num": 11,
+      "round": "Fase de Grupos",
+      "date": "2026-06-14",
+      "time": "19:00",
+      "team1": "CIV",
+      "team2": "ECU",
+      "group": "Grupo E",
+      "ground": "Philadelphia"
+    },
+    {
+      "num": 12,
+      "round": "Fase de Grupos",
+      "date": "2026-06-14",
+      "time": "22:00",
+      "team1": "SWE",
+      "team2": "TUN",
+      "group": "Grupo F",
+      "ground": "Monterrey"
+    },
+    {
+      "num": 13,
+      "round": "Fase de Grupos",
+      "date": "2026-06-15",
+      "time": "12:00",
+      "team1": "ESP",
+      "team2": "CPV",
+      "group": "Grupo H",
+      "ground": "Atlanta"
+    },
+    {
+      "num": 14,
+      "round": "Fase de Grupos",
+      "date": "2026-06-15",
+      "time": "15:00",
+      "team1": "BEL",
+      "team2": "EGY",
+      "group": "Grupo G",
+      "ground": "Seattle"
+    },
+    {
+      "num": 15,
+      "round": "Fase de Grupos",
+      "date": "2026-06-15",
+      "time": "18:00",
+      "team1": "KSA",
+      "team2": "URU",
+      "group": "Grupo H",
+      "ground": "Miami"
+    },
+    {
+      "num": 16,
+      "round": "Fase de Grupos",
+      "date": "2026-06-15",
+      "time": "21:00",
+      "team1": "IRN",
+      "team2": "NZL",
+      "group": "Grupo G",
+      "ground": "Los Angeles"
+    },
+    {
+      "num": 17,
+      "round": "Fase de Grupos",
+      "date": "2026-06-16",
+      "time": "15:00",
+      "team1": "FRA",
+      "team2": "SEN",
+      "group": "Grupo I",
+      "ground": "Nueva York/Nueva Jersey"
+    },
+    {
+      "num": 18,
+      "round": "Fase de Grupos",
+      "date": "2026-06-16",
+      "time": "18:00",
+      "team1": "IRQ",
+      "team2": "NOR",
+      "group": "Grupo I",
+      "ground": "Boston"
+    },
+    {
+      "num": 19,
+      "round": "Fase de Grupos",
+      "date": "2026-06-16",
+      "time": "21:00",
+      "team1": "ARG",
+      "team2": "ALG",
+      "group": "Grupo J",
+      "ground": "Kansas City"
+    },
+    {
+      "num": 20,
+      "round": "Fase de Grupos",
+      "date": "2026-06-17",
+      "time": "0:00",
+      "team1": "AUT",
+      "team2": "JOR",
+      "group": "Grupo J",
+      "ground": "Área de la Bahía de San Francisco"
+    },
+    {
+      "num": 21,
+      "round": "Fase de Grupos",
+      "date": "2026-06-17",
+      "time": "13:00",
+      "team1": "POR",
+      "team2": "COD",
+      "group": "Grupo K",
+      "ground": "Houston"
+    },
+    {
+      "num": 22,
+      "round": "Fase de Grupos",
+      "date": "2026-06-17",
+      "time": "16:00",
+      "team1": "ENG",
+      "team2": "CRO",
+      "group": "Grupo L",
+      "ground": "Dallas"
+    },
+    {
+      "num": 23,
+      "round": "Fase de Grupos",
+      "date": "2026-06-17",
+      "time": "19:00",
+      "team1": "GHA",
+      "team2": "PAN",
+      "group": "Grupo L",
+      "ground": "Toronto"
+    },
+    {
+      "num": 24,
+      "round": "Fase de Grupos",
+      "date": "2026-06-17",
+      "time": "22:00",
+      "team1": "UZB",
+      "team2": "COL",
+      "group": "Grupo K",
+      "ground": "Ciudad de México"
+    },
+    {
+      "num": 25,
+      "round": "Fase de Grupos",
+      "date": "2026-06-18",
+      "time": "12:00",
+      "team1": "CZE",
+      "team2": "RSA",
+      "group": "Grupo A",
+      "ground": "Atlanta"
+    },
+    {
+      "num": 26,
+      "round": "Fase de Grupos",
+      "date": "2026-06-18",
+      "time": "15:00",
+      "team1": "SUI",
+      "team2": "BIH",
+      "group": "Grupo B",
+      "ground": "Los Angeles"
+    },
+    {
+      "num": 27,
+      "round": "Fase de Grupos",
+      "date": "2026-06-18",
+      "time": "18:00",
+      "team1": "CAN",
+      "team2": "QAT",
+      "group": "Grupo B",
+      "ground": "Vancouver"
+    },
+    {
+      "num": 28,
+      "round": "Fase de Grupos",
+      "date": "2026-06-18",
+      "time": "21:00",
+      "team1": "MEX",
+      "team2": "KOR",
+      "group": "Grupo A",
+      "ground": "Guadalajara"
+    },
+    {
+      "num": 29,
+      "round": "Fase de Grupos",
+      "date": "2026-06-19",
+      "time": "15:00",
+      "team1": "USA",
+      "team2": "AUS",
+      "group": "Grupo D",
+      "ground": "Seattle"
+    },
+    {
+      "num": 30,
+      "round": "Fase de Grupos",
+      "date": "2026-06-19",
+      "time": "18:00",
+      "team1": "SCO",
+      "team2": "MAR",
+      "group": "Grupo C",
+      "ground": "Boston"
+    },
+    {
+      "num": 31,
+      "round": "Fase de Grupos",
+      "date": "2026-06-19",
+      "time": "21:00",
+      "team1": "BRA",
+      "team2": "HAI",
+      "group": "Grupo C",
+      "ground": "Philadelphia"
+    },
+    {
+      "num": 32,
+      "round": "Fase de Grupos",
+      "date": "2026-06-20",
+      "time": "0:00",
+      "team1": "TUR",
+      "team2": "PAR",
+      "group": "Grupo D",
+      "ground": "Área de la Bahía de San Francisco"
+    },
+    {
+      "num": 33,
+      "round": "Fase de Grupos",
+      "date": "2026-06-20",
+      "time": "13:00",
+      "team1": "NED",
+      "team2": "SWE",
+      "group": "Grupo F",
+      "ground": "Houston"
+    },
+    {
+      "num": 34,
+      "round": "Fase de Grupos",
+      "date": "2026-06-20",
+      "time": "16:00",
+      "team1": "GER",
+      "team2": "CIV",
+      "group": "Grupo E",
+      "ground": "Toronto"
+    },
+    {
+      "num": 35,
+      "round": "Fase de Grupos",
+      "date": "2026-06-20",
+      "time": "20:00",
+      "team1": "ECU",
+      "team2": "CUR",
+      "group": "Grupo E",
+      "ground": "Kansas City"
+    },
+    {
+      "num": 36,
+      "round": "Fase de Grupos",
+      "date": "2026-06-21",
+      "time": "0:00",
+      "team1": "TUN",
+      "team2": "JPN",
+      "group": "Grupo F",
+      "ground": "Monterrey"
+    },
+    {
+      "num": 37,
+      "round": "Fase de Grupos",
+      "date": "2026-06-21",
+      "time": "12:00",
+      "team1": "ESP",
+      "team2": "KSA",
+      "group": "Grupo H",
+      "ground": "Atlanta"
+    },
+    {
+      "num": 38,
+      "round": "Fase de Grupos",
+      "date": "2026-06-21",
+      "time": "15:00",
+      "team1": "BEL",
+      "team2": "IRN",
+      "group": "Grupo G",
+      "ground": "Los Angeles"
+    },
+    {
+      "num": 39,
+      "round": "Fase de Grupos",
+      "date": "2026-06-21",
+      "time": "18:00",
+      "team1": "URU",
+      "team2": "CPV",
+      "group": "Grupo H",
+      "ground": "Miami"
+    },
+    {
+      "num": 40,
+      "round": "Fase de Grupos",
+      "date": "2026-06-21",
+      "time": "21:00",
+      "team1": "NZL",
+      "team2": "EGY",
+      "group": "Grupo G",
+      "ground": "Vancouver"
+    },
+    {
+      "num": 41,
+      "round": "Fase de Grupos",
+      "date": "2026-06-22",
+      "time": "13:00",
+      "team1": "ARG",
+      "team2": "AUT",
+      "group": "Grupo J",
+      "ground": "Dallas"
+    },
+    {
+      "num": 42,
+      "round": "Fase de Grupos",
+      "date": "2026-06-22",
+      "time": "17:00",
+      "team1": "FRA",
+      "team2": "IRQ",
+      "group": "Grupo I",
+      "ground": "Philadelphia"
+    },
+    {
+      "num": 43,
+      "round": "Fase de Grupos",
+      "date": "2026-06-22",
+      "time": "20:00",
+      "team1": "NOR",
+      "team2": "SEN",
+      "group": "Grupo I",
+      "ground": "Nueva York/Nueva Jersey"
+    },
+    {
+      "num": 44,
+      "round": "Fase de Grupos",
+      "date": "2026-06-22",
+      "time": "23:00",
+      "team1": "JOR",
+      "team2": "ALG",
+      "group": "Grupo J",
+      "ground": "Área de la Bahía de San Francisco"
+    },
+    {
+      "num": 45,
+      "round": "Fase de Grupos",
+      "date": "2026-06-23",
+      "time": "13:00",
+      "team1": "POR",
+      "team2": "UZB",
+      "group": "Grupo K",
+      "ground": "Houston"
+    },
+    {
+      "num": 46,
+      "round": "Fase de Grupos",
+      "date": "2026-06-23",
+      "time": "16:00",
+      "team1": "ENG",
+      "team2": "GHA",
+      "group": "Grupo L",
+      "ground": "Boston"
+    },
+    {
+      "num": 47,
+      "round": "Fase de Grupos",
+      "date": "2026-06-23",
+      "time": "19:00",
+      "team1": "PAN",
+      "team2": "CRO",
+      "group": "Grupo L",
+      "ground": "Toronto"
+    },
+    {
+      "num": 48,
+      "round": "Fase de Grupos",
+      "date": "2026-06-23",
+      "time": "22:00",
+      "team1": "COL",
+      "team2": "COD",
+      "group": "Grupo K",
+      "ground": "Guadalajara"
+    },
+    {
+      "num": 49,
+      "round": "Fase de Grupos",
+      "date": "2026-06-24",
+      "time": "15:00",
+      "team1": "SUI",
+      "team2": "CAN",
+      "group": "Grupo B",
+      "ground": "Vancouver"
+    },
+    {
+      "num": 50,
+      "round": "Fase de Grupos",
+      "date": "2026-06-24",
+      "time": "15:00",
+      "team1": "BIH",
+      "team2": "QAT",
+      "group": "Grupo B",
+      "ground": "Seattle"
+    },
+    {
+      "num": 51,
+      "round": "Fase de Grupos",
+      "date": "2026-06-24",
+      "time": "18:00",
+      "team1": "SCO",
+      "team2": "BRA",
+      "group": "Grupo C",
+      "ground": "Miami"
+    },
+    {
+      "num": 52,
+      "round": "Fase de Grupos",
+      "date": "2026-06-24",
+      "time": "18:00",
+      "team1": "MAR",
+      "team2": "HAI",
+      "group": "Grupo C",
+      "ground": "Atlanta"
+    },
+    {
+      "num": 53,
+      "round": "Fase de Grupos",
+      "date": "2026-06-24",
+      "time": "21:00",
+      "team1": "CZE",
+      "team2": "MEX",
+      "group": "Grupo A",
+      "ground": "Ciudad de México"
+    },
+    {
+      "num": 54,
+      "round": "Fase de Grupos",
+      "date": "2026-06-24",
+      "time": "21:00",
+      "team1": "RSA",
+      "team2": "KOR",
+      "group": "Grupo A",
+      "ground": "Monterrey"
+    },
+    {
+      "num": 55,
+      "round": "Fase de Grupos",
+      "date": "2026-06-25",
+      "time": "16:00",
+      "team1": "CUR",
+      "team2": "CIV",
+      "group": "Grupo E",
+      "ground": "Philadelphia"
+    },
+    {
+      "num": 56,
+      "round": "Fase de Grupos",
+      "date": "2026-06-25",
+      "time": "16:00",
+      "team1": "ECU",
+      "team2": "GER",
+      "group": "Grupo E",
+      "ground": "Nueva York/Nueva Jersey"
+    },
+    {
+      "num": 57,
+      "round": "Fase de Grupos",
+      "date": "2026-06-25",
+      "time": "19:00",
+      "team1": "JPN",
+      "team2": "SWE",
+      "group": "Grupo F",
+      "ground": "Dallas"
+    },
+    {
+      "num": 58,
+      "round": "Fase de Grupos",
+      "date": "2026-06-25",
+      "time": "19:00",
+      "team1": "TUN",
+      "team2": "NED",
+      "group": "Grupo F",
+      "ground": "Kansas City"
+    },
+    {
+      "num": 59,
+      "round": "Fase de Grupos",
+      "date": "2026-06-25",
+      "time": "22:00",
+      "team1": "TUR",
+      "team2": "USA",
+      "group": "Grupo D",
+      "ground": "Los Angeles"
+    },
+    {
+      "num": 60,
+      "round": "Fase de Grupos",
+      "date": "2026-06-25",
+      "time": "22:00",
+      "team1": "PAR",
+      "team2": "AUS",
+      "group": "Grupo D",
+      "ground": "Área de la Bahía de San Francisco"
+    },
+    {
+      "num": 61,
+      "round": "Fase de Grupos",
+      "date": "2026-06-26",
+      "time": "15:00",
+      "team1": "NOR",
+      "team2": "FRA",
+      "group": "Grupo I",
+      "ground": "Boston"
+    },
+    {
+      "num": 62,
+      "round": "Fase de Grupos",
+      "date": "2026-06-26",
+      "time": "15:00",
+      "team1": "SEN",
+      "team2": "IRQ",
+      "group": "Grupo I",
+      "ground": "Toronto"
+    },
+    {
+      "num": 63,
+      "round": "Fase de Grupos",
+      "date": "2026-06-26",
+      "time": "20:00",
+      "team1": "CPV",
+      "team2": "KSA",
+      "group": "Grupo H",
+      "ground": "Houston"
+    },
+    {
+      "num": 64,
+      "round": "Fase de Grupos",
+      "date": "2026-06-26",
+      "time": "20:00",
+      "team1": "URU",
+      "team2": "ESP",
+      "group": "Grupo H",
+      "ground": "Guadalajara"
+    },
+    {
+      "num": 65,
+      "round": "Fase de Grupos",
+      "date": "2026-06-26",
+      "time": "23:00",
+      "team1": "EGY",
+      "team2": "IRN",
+      "group": "Grupo G",
+      "ground": "Seattle"
+    },
+    {
+      "num": 66,
+      "round": "Fase de Grupos",
+      "date": "2026-06-26",
+      "time": "23:00",
+      "team1": "NZL",
+      "team2": "BEL",
+      "group": "Grupo G",
+      "ground": "Vancouver"
+    },
+    {
+      "num": 67,
+      "round": "Fase de Grupos",
+      "date": "2026-06-27",
+      "time": "17:00",
+      "team1": "PAN",
+      "team2": "ENG",
+      "group": "Grupo L",
+      "ground": "Nueva York/Nueva Jersey"
+    },
+    {
+      "num": 68,
+      "round": "Fase de Grupos",
+      "date": "2026-06-27",
+      "time": "17:00",
+      "team1": "CRO",
+      "team2": "GHA",
+      "group": "Grupo L",
+      "ground": "Philadelphia"
+    },
+    {
+      "num": 69,
+      "round": "Fase de Grupos",
+      "date": "2026-06-27",
+      "time": "19:30",
+      "team1": "COL",
+      "team2": "POR",
+      "group": "Grupo K",
+      "ground": "Miami"
+    },
+    {
+      "num": 70,
+      "round": "Fase de Grupos",
+      "date": "2026-06-27",
+      "time": "19:30",
+      "team1": "COD",
+      "team2": "UZB",
+      "group": "Grupo K",
+      "ground": "Atlanta"
+    },
+    {
+      "num": 71,
+      "round": "Fase de Grupos",
+      "date": "2026-06-27",
+      "time": "22:00",
+      "team1": "ALG",
+      "team2": "AUT",
+      "group": "Grupo J",
+      "ground": "Kansas City"
+    },
+    {
+      "num": 72,
+      "round": "Fase de Grupos",
+      "date": "2026-06-27",
+      "time": "22:00",
+      "team1": "JOR",
+      "team2": "ARG",
+      "group": "Grupo J",
+      "ground": "Dallas"
+    },
+    {
+      "num": 73,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-06-28",
+      "time": "15:00",
+      "team1": "2A",
+      "team2": "2B",
+      "ground": "Los Angeles"
+    },
+    {
+      "num": 74,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-06-29",
+      "time": "13:00",
+      "team1": "1C",
+      "team2": "2F",
+      "ground": "Houston"
+    },
+    {
+      "num": 75,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-06-29",
+      "time": "16:30",
+      "team1": "1E",
+      "team2": "3ABCDF",
+      "ground": "Boston"
+    },
+    {
+      "num": 76,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-06-29",
+      "time": "21:00",
+      "team1": "1F",
+      "team2": "2C",
+      "ground": "Monterrey"
+    },
+    {
+      "num": 77,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-06-30",
+      "time": "13:00",
+      "team1": "2E",
+      "team2": "2I",
+      "ground": "Dallas"
+    },
+    {
+      "num": 78,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-06-30",
+      "time": "17:00",
+      "team1": "1I",
+      "team2": "3CDFGH",
+      "ground": "Nueva York/Nueva Jersey"
+    },
+    {
+      "num": 79,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-06-30",
+      "time": "21:00",
+      "team1": "1A",
+      "team2": "3CEFHI",
+      "ground": "Ciudad de México"
+    },
+    {
+      "num": 80,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-07-01",
+      "time": "12:00",
+      "team1": "1L",
+      "team2": "3EHIJK",
+      "ground": "Atlanta"
+    },
+    {
+      "num": 81,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-07-01",
+      "time": "16:00",
+      "team1": "1G",
+      "team2": "3AEHIJ",
+      "ground": "Seattle"
+    },
+    {
+      "num": 82,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-07-01",
+      "time": "20:00",
+      "team1": "1D",
+      "team2": "3BEFIJ",
+      "ground": "Área de la Bahía de San Francisco"
+    },
+    {
+      "num": 83,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-07-02",
+      "time": "15:00",
+      "team1": "1H",
+      "team2": "2J",
+      "ground": "Los Angeles"
+    },
+    {
+      "num": 84,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-07-02",
+      "time": "19:00",
+      "team1": "2K",
+      "team2": "2L",
+      "ground": "Toronto"
+    },
+    {
+      "num": 85,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-07-02",
+      "time": "23:00",
+      "team1": "1B",
+      "team2": "3EFGIJ",
+      "ground": "Vancouver"
+    },
+    {
+      "num": 86,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-07-03",
+      "time": "14:00",
+      "team1": "2D",
+      "team2": "2G",
+      "ground": "Dallas"
+    },
+    {
+      "num": 87,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-07-03",
+      "time": "18:00",
+      "team1": "1J",
+      "team2": "2H",
+      "ground": "Miami"
+    },
+    {
+      "num": 88,
+      "round": "Dieciséisavos de Final",
+      "date": "2026-07-03",
+      "time": "21:30",
+      "team1": "1K",
+      "team2": "3DEIJL",
+      "ground": "Kansas City"
+    },
+    {
+      "num": 89,
+      "round": "Octavos de Final",
+      "date": "2026-07-04",
+      "time": "13:00",
+      "team1": "W73",
+      "team2": "W75",
+      "ground": "Houston"
+    },
+    {
+      "num": 90,
+      "round": "Octavos de Final",
+      "date": "2026-07-04",
+      "time": "17:00",
+      "team1": "W74",
+      "team2": "W77",
+      "ground": "Philadelphia"
+    },
+    {
+      "num": 91,
+      "round": "Octavos de Final",
+      "date": "2026-07-05",
+      "time": "16:00",
+      "team1": "W76",
+      "team2": "W78",
+      "ground": "Nueva York/Nueva Jersey"
+    },
+    {
+      "num": 92,
+      "round": "Octavos de Final",
+      "date": "2026-07-05",
+      "time": "20:00",
+      "team1": "W79",
+      "team2": "W80",
+      "ground": "Ciudad de México"
+    },
+    {
+      "num": 93,
+      "round": "Octavos de Final",
+      "date": "2026-07-06",
+      "time": "15:00",
+      "team1": "W83",
+      "team2": "W84",
+      "ground": "Dallas"
+    },
+    {
+      "num": 94,
+      "round": "Octavos de Final",
+      "date": "2026-07-06",
+      "time": "20:00",
+      "team1": "W81",
+      "team2": "W82",
+      "ground": "Seattle"
+    },
+    {
+      "num": 95,
+      "round": "Octavos de Final",
+      "date": "2026-07-07",
+      "time": "12:00",
+      "team1": "W86",
+      "team2": "W88",
+      "ground": "Atlanta"
+    },
+    {
+      "num": 96,
+      "round": "Octavos de Final",
+      "date": "2026-07-07",
+      "time": "16:00",
+      "team1": "W85",
+      "team2": "W87",
+      "ground": "Vancouver"
+    },
+    {
+      "num": 97,
+      "round": "Cuartos de Final",
+      "date": "2026-07-09",
+      "time": "16:00",
+      "team1": "W89",
+      "team2": "W90",
+      "ground": "Boston"
+    },
+    {
+      "num": 98,
+      "round": "Cuartos de Final",
+      "date": "2026-07-10",
+      "time": "15:00",
+      "team1": "W93",
+      "team2": "W94",
+      "ground": "Los Angeles"
+    },
+    {
+      "num": 99,
+      "round": "Cuartos de Final",
+      "date": "2026-07-11",
+      "time": "17:00",
+      "team1": "W91",
+      "team2": "W92",
+      "ground": "Miami"
+    },
+    {
+      "num": 100,
+      "round": "Cuartos de Final",
+      "date": "2026-07-11",
+      "time": "21:00",
+      "team1": "W95",
+      "team2": "W100",
+      "ground": "Kansas City"
+    },
+    {
+      "num": 101,
+      "round": "Semifinales",
+      "date": "2026-07-14",
+      "time": "15:00",
+      "team1": "W97",
+      "team2": "W98",
+      "ground": "Dallas"
+    },
+    {
+      "num": 102,
+      "round": "Semifinales",
+      "date": "2026-07-15",
+      "time": "15:00",
+      "team1": "W99",
+      "team2": "W100",
+      "ground": "Atlanta"
+    },
+    {
+      "num": 103,
+      "round": "Tercer Puesto",
+      "date": "2026-07-18",
+      "time": "17:00",
+      "team1": "RU101",
+      "team2": "RU102",
+      "ground": "Miami"
+    },
+    {
+      "num": 104,
+      "round": "Final",
+      "date": "2026-07-19",
+      "time": "15:00",
+      "team1": "W101",
+      "team2": "W102",
+      "ground": "Nueva York/Nueva Jersey"
+    }
+  ]
+}
