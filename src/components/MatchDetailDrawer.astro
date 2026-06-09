@@ -198,6 +198,81 @@ import sponsorInfo from '../data/sponsor.json';
   let eventsChannel: any = null;
   let cronometroInterval: any = null;
   let localEventos: any[] = [];
+  let audioCtx: any = null;
+
+  function initAudioContext() {
+    try {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || (window as any).webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+    } catch (e) {
+      console.warn("Web Audio API no está soportada o fue bloqueada:", e);
+    }
+  }
+
+  function playBeep(frequency = 440, duration = 0.15) {
+    if (!audioCtx) return;
+    try {
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+      const osc = audioCtx.createOscillator();
+      const gainNode = audioCtx.createGain();
+      
+      osc.connect(gainNode);
+      gainNode.connect(audioCtx.destination);
+      
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(frequency, audioCtx.currentTime);
+      
+      gainNode.gain.setValueAtTime(0.08, audioCtx.currentTime);
+      gainNode.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);
+      
+      osc.start(audioCtx.currentTime);
+      osc.stop(audioCtx.currentTime + duration);
+    } catch (e) {
+      console.warn("No se pudo reproducir el pitido sintetizado:", e);
+    }
+  }
+
+  function triggerLiveFeedback(eventType: string) {
+    // 1. Intentar vibrar (Android/navegadores que lo soportan)
+    if (typeof navigator !== 'undefined' && navigator.vibrate) {
+      try {
+        if (eventType === 'gol' || eventType === 'penal_anotado') {
+          navigator.vibrate([250, 80, 250, 80, 400]);
+        } else if (eventType === 'tarjeta_roja') {
+          navigator.vibrate([350, 100, 350]);
+        } else if (eventType === 'tarjeta_amarilla' || eventType === 'cambio') {
+          navigator.vibrate(150);
+        } else {
+          navigator.vibrate(100);
+        }
+      } catch (err) {
+        console.warn("Vibración fallida:", err);
+      }
+    }
+
+    // 2. Reproducir tono sintetizado (iOS y Android)
+    if (eventType === 'gol' || eventType === 'penal_anotado') {
+      playBeep(523.25, 0.15); // C5
+      setTimeout(() => playBeep(659.25, 0.15), 120); // E5
+      setTimeout(() => playBeep(783.99, 0.35), 240); // G5
+    } else if (eventType === 'tarjeta_roja') {
+      playBeep(493.88, 0.2); // B4
+      setTimeout(() => playBeep(349.23, 0.35), 180); // F4 (Tritono)
+    } else if (eventType === 'tarjeta_amarilla') {
+      playBeep(587.33, 0.2); // D5
+    } else if (eventType === 'cambio') {
+      playBeep(659.25, 0.1); // E5
+      setTimeout(() => playBeep(523.25, 0.1), 100); // C5
+    } else {
+      playBeep(440, 0.12); // A4 (Pitido neutro)
+    }
+  }
 
   function updateStopwatchDisplay(minutoBase: number, horaInicioIso: string, tiempoAdicional: number) {
     const startTime = new Date(horaInicioIso).getTime();
@@ -316,6 +391,7 @@ import sponsorInfo from '../data/sponsor.json';
   // @ts-ignore
   window.openMatchDetailDrawer = async function (matchId: string) {
     if (!matchId) return;
+    initAudioContext(); // Desbloquear contexto de audio en gesto del usuario
     resetDrawer();
     openDrawer();
 
@@ -666,6 +742,7 @@ import sponsorInfo from '../data/sponsor.json';
         if (payload.eventType === 'INSERT') {
           localEventos.push(payload.new);
           renderTimeline(localEventos);
+          triggerLiveFeedback(payload.new.tipo);
         } 
         else if (payload.eventType === 'DELETE') {
           localEventos = localEventos.filter(ev => ev.id !== payload.old.id);
