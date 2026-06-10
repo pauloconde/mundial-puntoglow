@@ -59,8 +59,8 @@ lines.forEach((line, idx) => {
   // 6. Club (d + 1)
   const club = cols[d + 1]?.trim() || null;
 
-  // 7. Estatura (d + 3)
-  const heightStr = cols[d + 3]?.trim();
+  // 7. Estatura (d + 2)
+  const heightStr = cols[d + 2]?.trim();
   let estatura = null;
   if (heightStr) {
     const parsedHeight = parseInt(heightStr, 10);

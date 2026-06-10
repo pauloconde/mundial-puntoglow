@@ -66,7 +66,7 @@ lines.forEach((line, idx) => {
 
   const club = cols[d + 1]?.trim() || null;
 
-  const heightStr = cols[d + 3]?.trim();
+  const heightStr = cols[d + 2]?.trim();
   let estatura = null;
   if (heightStr) {
     const parsedHeight = parseInt(heightStr, 10);
