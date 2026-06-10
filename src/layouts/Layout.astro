@@ -770,18 +770,23 @@ const kickoffISOs = data.matches.map(m => getMatchUTC(m));
                style="background: var(--brand-nav-bg, #ffffff); border-color: var(--border-subtle); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);">
             
             <a href="/estadios" 
-               class="flex items-center gap-3 px-3 py-2.5 rounded-xl transition-colors hover:bg-black/5 active:bg-black/10"
-               style="color: var(--brand-nav-text, #080210);">
-              <span class="text-lg">🏟️</span>
+               class={`flex items-center gap-3 px-3 py-2.5 rounded-xl transition-colors hover:bg-black/5 active:bg-black/10 ${page === 'estadios' ? 'text-[var(--brand-nav-icon-active,#5314ff)] bg-black/5' : ''}`}
+               style={`color: ${page === 'estadios' ? 'var(--brand-nav-icon-active, #5314ff)' : 'var(--brand-nav-text, #080210)'};`}>
+              <svg class="w-5 h-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
               <span class="text-xs font-bold font-['Outfit']">Estadios</span>
             </a>
             
             <div class="h-px" style="background: var(--border-subtle);"></div>
             
             <a href="/equipos" 
-               class="flex items-center gap-3 px-3 py-2.5 rounded-xl transition-colors hover:bg-black/5 active:bg-black/10"
-               style="color: var(--brand-nav-text, #080210);">
-              <span class="text-lg">🏃‍♂️</span>
+               class={`flex items-center gap-3 px-3 py-2.5 rounded-xl transition-colors hover:bg-black/5 active:bg-black/10 ${page === 'equipos' ? 'text-[var(--brand-nav-icon-active,#5314ff)] bg-black/5' : ''}`}
+               style={`color: ${page === 'equipos' ? 'var(--brand-nav-icon-active, #5314ff)' : 'var(--brand-nav-text, #080210)'};`}>
+              <svg class="w-5 h-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>
               <span class="text-xs font-bold font-['Outfit']">Equipos</span>
             </a>
 
